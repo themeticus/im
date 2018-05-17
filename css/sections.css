@@ -1,0 +1,64 @@
+
+
+
+section, .slide {
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+/*  background-color: #bdc3c7; 
+  background-color: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  
+  background-color: linear-gradient(to top, #2c3e50, #bdc3c7); */
+}
+
+.content {
+	max-width:800px; 
+	margin: 160px auto 100px;
+	padding: 20px;
+}
+
+.content .main-title h1 { 
+
+}
+
+.content .main-title h2 { 
+  font-size: 2em;
+}
+
+.content .content-text p {
+  font-size: 1.2em;
+}
+
+.content ul {
+	margin: 0 0 0 20px;
+}
+
+.content h1 {
+	font-size: 1em;
+  text-transform: uppercase;
+  background-color: black;
+  width: auto;
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0 0 0px -200px;
+}
+
+.content p {
+	margin: 20px 0;
+}
+
+.content-full {
+	max-width: calc(100% - 40px); 
+	margin: -10px auto 100px;
+}
+
+/* section mods */
+
+#home-section,
+#colour-chart-section { 
+  padding-top: 0px !important;
+}
+
+.hidden {
+  display: none;
+}

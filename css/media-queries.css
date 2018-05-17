@@ -1,0 +1,84 @@
+@media screen and (max-width: 760px) {
+
+  .opening-banner img {
+    width: 200%
+  }
+
+  .fullscreen h1, 
+  .fullscreen p {
+      padding: 6px 10px 6px
+  }      
+
+  footer a {
+    font-size: 14px
+  }    
+
+  #team-look-section .preview-box {
+      width: calc(100% - 20px) !important
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .social {
+    float: none !important;
+    text-align: center;
+    margin: 5px 0 0 0px;
+  }  
+
+  footer a {
+    font-size: 14px;
+  }    
+
+  .fp-slidesNav.bottom {
+    bottom: 59px;
+  }  
+
+  .fp-controlArrow.fp-next,
+  .fp-controlArrow.fp-prev {
+    bottom: 100px;
+   } 
+}
+
+@media screen and (max-width: 570px) {
+
+  .fp-slidesNav.bottom {
+    bottom: 78px;
+  }  
+
+  .fp-controlArrow.fp-next,
+  .fp-controlArrow.fp-prev {
+    bottom: 100px;
+   } 
+}
+
+@media screen and (max-width: 460px) {
+
+  #team-look-section .preview-box .swatches {
+      margin: -35px -198px 0 0;
+  }
+
+  #team-look-section .preview-box h3 {
+      margin: -71px 1px 0 0;  
+      font-size: 16px;
+  }
+
+  #team-look-section .preview-box .swatches img {
+      width: calc((20% - 2px) / 2);
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .opening-banner img {
+    width: 300%;
+  }
+
+}
+
+.fp-viewing-home-0 .fp-controlArrow.fp-prev,
+.fp-viewing-home-0 .fp-controlArrow.fp-next {
+  display: none
+}
